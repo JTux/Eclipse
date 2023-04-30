@@ -1,0 +1,153 @@
+:root {
+    --gold: #ffc31f;
+    --blue: #0b1c57;
+    --gray: #131414;
+    --green: #0a8431;
+    --orange: #ffa217;
+    --purple: #5d209a;
+    --white: #ffffff;
+    --black: #000000;
+
+    --text: #c3c9d1;
+
+    --bs-body-bg: var(--gray);
+    --bs-body-color: var(--text);
+    --bs-dark-rgb: 255, 195, 31;
+    
+}
+
+.color-swatch {
+    display: inline-block;
+    min-width: 1em;
+    padding: .125rem .25rem;
+    font-size: .6em;
+    border-radius: 5px;
+}
+
+.color-swatch.gold {
+    background-color: var(--gold);
+}
+
+.color-swatch.blue {
+    background-color: var(--blue);
+}
+
+.color-swatch.gray {
+    background-color: var(--gray);
+}
+
+.color-swatch.green {
+    background-color: var(--green);
+}
+
+.color-swatch.orange {
+    background-color: var(--orange);
+}
+
+.color-swatch.purple {
+    background-color: var(--purple);
+}
+
+.color-swatch.white {
+    background-color: var(--white);
+}
+
+.color-swatch.black {
+    background-color: var(--black);
+}
+
+.text-decoration-gold {
+    text-decoration-color: var(--gold) !important;
+}
+
+.text-decoration-blue {
+    text-decoration-color: var(--blue) !important;
+}
+
+.text-decoration-gray {
+    text-decoration-color: var(--gray) !important;
+}
+
+.text-decoration-green {
+    text-decoration-color: var(--green) !important;
+}
+
+.text-decoration-orange {
+    text-decoration-color: var(--orange) !important;
+}
+
+.text-decoration-purple {
+    text-decoration-color: var(--purple) !important;
+}
+
+.text-decoration-white {
+    text-decoration-color: var(--white) !important;
+}
+
+.text-decoration-black {
+    text-decoration-color: var(--black) !important;
+}
+
+.text-orange {
+    color: var(--orange);
+}
+
+.text-gold {
+    color: var(--gold);
+}
+
+.text-green {
+    color: var(--green);
+}
+
+.text-blue {
+    color: var(--blue);
+}
+
+.text-purple {
+    color: var(--purple);
+}
+
+.text-white {
+    color: var(--white);
+}
+
+.text-gray {
+    color: var(--gray);
+}
+
+.text-black {
+    color: var(--black);
+}
+
+.border-orange {
+    border-color: var(--orange) !important;
+}
+
+.border-gold {
+    border-color: var(--gold) !important;
+}
+
+.border-green {
+    border-color: var(--green) !important;
+}
+
+.border-blue {
+    border-color: var(--blue) !important;
+}
+
+.border-purple {
+    border-color: var(--purple) !important;
+}
+
+.border-white {
+    border-color: var(--white) !important;
+}
+
+.border-gray {
+    border-color: var(--gray) !important;
+}
+
+.border-black {
+    border-color: var(--black) !important;
+}

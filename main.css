@@ -1,0 +1,122 @@
+@import url(./colors.css);
+
+body {
+    font-size: 13pt;
+    font-family: 'Raleway', sans-serif;
+    background-image: url(./assets/asfalt-light.png);
+    background-attachment: fixed;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+}
+
+.hero {
+    background: #000 url("./assets/mathew-schwartz-7YiZKj9A3DM-unsplash.jpg") center left no-repeat;
+    background-size: contain;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 2px var(--gold);
+}
+
+.hero>h1,
+h2 {
+    --spacingSize: clamp(.25rem, 5vw, 3.75rem);
+    letter-spacing: var(--spacingSize);
+    text-indent: var(--spacingSize);
+    color: black;
+    text-shadow:
+        1px -1px 4px #edf7ff,
+        -1px 1px 2px #d1eeff,
+        2px 1px 5px #f0fbff,
+        -1px -1px 2px white;
+}
+
+h2,
+#top-seller-carousel .carousel-caption {
+    text-shadow:
+        1px -1px 4px #edf7ffa0,
+        -1px 1px 2px #d1eeffa0,
+        2px 1px 5px #f0fbffa0,
+        -1px -1px 2px #ffffffa0;
+}
+
+.hero>img.stars {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    -webkit-mask-image: linear-gradient(to right, transparent 20%, black 85%);
+    mask-image: linear-gradient(to right, transparent 20%, black 85%);
+    z-index: 1;
+    width: 100vw;
+}
+
+h2 {
+    text-align: center;
+}
+
+nav {
+    box-shadow: 0 0px 10px 0px var(--gray) inset;
+}
+
+.navbar-brand,
+.nav-link {
+    color: var(--gray) !important;
+}
+
+body>.container {
+    padding: 0;
+    box-shadow: 0 0 10px 0 var(--white);
+}
+
+body>.container>section {
+    padding: 5rem 3rem;
+}
+
+body>.container>section:nth-child(odd) {
+    background-color: var(--black);
+}
+
+body>.container>section:nth-child(even) {
+    background-color: var(--gray);
+}
+
+.section-header::before {
+    content: "";
+    display: block;
+    width: 5rem;
+    height: 3px;
+    margin-bottom: .3rem;
+    background-color: var(--header-color);
+}
+
+.brand-logo {
+    object-fit: cover;
+}
+
+#top-seller-carousel {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#top-seller-carousel .carousel-item img {
+    height: 800px;
+    max-height: 800px;
+    filter: grayscale(.6);
+}
+
+#top-seller-carousel .carousel-caption {
+    font-weight: bold;
+}
+
+.card {
+    overflow: hidden;
+    height: 100%;
+}
+
+.card>img {
+    max-height: 200px;
+    object-fit: cover;
+}
