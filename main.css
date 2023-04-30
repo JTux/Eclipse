@@ -102,7 +102,6 @@ body>.container>section:nth-child(even) {
 }
 
 #top-seller-carousel .carousel-item img {
-    height: 800px;
     max-height: 800px;
     filter: grayscale(.6);
 }
